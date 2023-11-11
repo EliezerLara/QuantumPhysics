@@ -33,7 +33,7 @@ for(i=0;i<n;i++){
 
 }
 
-//  Aqui, graficamos el potencial para asegurarnos de que el condicional este definido correctamente
+/*  Aqui, graficamos el potencial para asegurarnos de que el condicional este definido correctamente
 
 
 fprintf(arch, "%lf %lf \n", -r , V0 );
@@ -44,8 +44,9 @@ for (i = 0; i < n; i++) {
 
 fprintf(arch, "%lf %lf \n", r , V0 );
 
+*/
 
-/*
+
 for(i=0;i<n;i++){
 	
 	A[i]=2.0*(1+(h*h)*V[i])/(h*h)-lt;
@@ -85,7 +86,7 @@ for (i = 0; i < n; i++) {
 fprintf(arch, "%lf %lf \n", r , 0.0 );
 
 printf("El número de iteraciones es: %d\n", k);
-*/
+
 fclose(arch);
 
 }
